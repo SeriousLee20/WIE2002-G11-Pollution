@@ -1,9 +1,8 @@
-a{
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,400;1,500;1,600;1,700;1,800&family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     color: #444444;
   }
   
@@ -18,7 +17,7 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Andada Pro', serif;
   }
   
   /*--------------------------------------------------------------
@@ -367,7 +366,7 @@ body {
   }
 
   /* Container holding the image and the text */
-.card {
+.dnow-regionsContent .card {
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 0px; /* Added */
@@ -411,6 +410,7 @@ opacity:.5;
 .btn-noise:hover{
   background-color: #697739;
   border-color: #697739;
+  color:#b4c195;
 }
 
 .btn-noise:active{
@@ -434,13 +434,6 @@ opacity:.5;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
   }
 
-.color{
-  color: #697739;
-  color: #b4c195;
-  color: #ffffb5;
-  color: #904525;
-}
-
 .full-screen{
   height: 100vh;
 }
@@ -450,8 +443,110 @@ opacity:.5;
   padding: 2rem 2rem;
   text-align: center;
 }
+
 .child {
   display: inline-block;
   padding: 1rem 1rem;
   vertical-align: middle;
+}
+
+.causeEffect{
+  background-color: #fbfbe6;
+  border-color: #904525;
+  border-width: 5px;
+  border-radius: 3rem;
+  box-shadow: 5px 5px 8px rgb(144, 69, 37, 0.6);
+
+}
+
+.causeEffect:hover{
+  border-color: #904525;
+  border-width: 2rem;
+  border-radius: 3px;
+  box-shadow: 5px 5px 8px rgb(144, 69, 37, 0.8);
+}
+
+.solution .card{
+ color: #000f;
+}
+
+.player {
+	background-color: #f1f3f4;
+	box-shadow: 0 50px 80px rgba(0, 0, 0, 0.25);
+	position: relative;
+	width: 350px;
+}
+
+.player .img-box {
+	height: 350px;
+	position: relative;
+	width: 100%;
+}
+
+.player .img-box img {
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.player audio {
+	outline: none;
+	width: 100%;
+}
+
+.img-box{
+  max-height: 240px;
+}
+
+.introimg{
+  max-height: 240px;
+}
+
+.carousel-inner{
+  width:360;
+  height: 360;
+  margin:auto;
+}
+
+/* .w-100{
+  width:100%;
+  height: 100%;
+} */
+
+.slide-title{
+  font-weight: 600 bold;
+  text-decoration: underline;
+}
+
+.carousel-caption{
+  color: #052B35;
+  background-color: #052B35;
+  background: rgba(236, 228, 183, .4);
+  background-blend-mode: color-burn;
+  border-style:dotted;
+  border-color: #052B35;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 900;
+  line-height: 1rem;
+
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:link:hover{
+  color:#697739;
+}
+
+.color{
+  color: #697739;
+  color: #b4c195;
+  color: #ffffb5;
+  color: #904525;
+  font-family: 'Andada Pro', serif;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
 }

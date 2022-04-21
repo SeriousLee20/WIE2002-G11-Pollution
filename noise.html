@@ -77,8 +77,8 @@
 
       <!-- The header content -->
       <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-          <div class="w-100 text-white">
+        <div class="row d-flex h-100 text-center align-items-center justify-content-center">
+          <div class="text-white">
             <h1 class="display-3">Noise Pollution</h1>
             <p class="lead mb-0">Keep it peace in your mind; keep it peace for the earth.</p>
           </div>
@@ -201,7 +201,7 @@
                     <p class="card-text">
                       Why is it harmful?
                     </p>
-                    <a href="#effects" class="btn-noise p-1">
+                    <a href="#reasons" class="btn-noise p-1">
                       Go Further.
                     </a>
                   </div>
@@ -245,7 +245,7 @@
 
     <div class="container">
 
-      <div class="row">
+      <div class="row pt-5">
 
         <h3>Definition</h3>
 
@@ -260,7 +260,7 @@
     </div>
   </section>
 
-  <section class="p-3 full-screen" id="introduction">
+  <section class="pt-2 full-screen" id="introduction">
     <div class="container">
       <div class="row">
         <h3>
@@ -297,64 +297,186 @@
 
             </div>
           </div>
+        </div> <!-- End Modal -->
+      </div>
+
+      <!-- Audio 1 -->
+      <div class="row d-flex align-items-center ">
+
+        <div class="player mt-5 col-sm">
+          <div class="introimg img-box">
+            <img src="assets/img/noise/lawn-mower.gif" alt="Singer" title="Singer">
+          </div>
+
         </div>
 
+        <div class="mt-5 col-sm ps-5">
+          <p>The noise of power lawn movers can reach 90dB.</p>
+          <audio controls>
+            <source src="assets/audio/lawn mower.mp3" type="audio/mp3">
+          </audio>
+        </div>
       </div>
+
+      <!-- Audio 2 -->
+      <div class="row d-flex align-items-center ">
+
+        <div class="mt-5 col-sm">
+          <p>The noise of loud rock concert can reach 110dB-120dB.</p>
+          <audio controls>
+            <source src="assets/audio/rock concert.mp3" type="audio/mp3">
+          </audio>
+        </div>
+
+        <div class="player mt-5 col-sm">
+          <div class="introimg img-box">
+            <img src="assets/img/noise/concert.gif" alt="rock" title="Singer">
+          </div>
+
+        </div>
+      </div>
+
     </div>
   </section>
 
   <section class="text-center full-screen" id="reasons">
 
-    <div class="container">
+    <div class="container pt-5">
 
-      <div class="row">
+      <div class="row pt-5">
 
-        <h3>Reasons</h3>
+        <h3>Causes & Effects</h3>
 
-        <iframe frameborder="no" width=300% height=300%
-          src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2341557/share/2022-4-21/1650523721/main.svg"></iframe>
+        <h4>Why does it happen and why is it harmful?</h4>
+
+        <img class="causeEffect" src="assets/img/noise/CauseEffect.png" alt="">
       </div>
 
-    </div>
+
+      <div class="callout">
+        rmb do callout
+      </div>
   </section>
 
-  <section class="text-center full-screen" id="effects">
 
-    <div class="container">
+  <section class="full-screen" id="solutions">
+
+    <div class="container pt-3">
+      <h3>Solutions</h3>
+      <h4>What can we do?</h4>
 
       <div class="row">
+        <div class="col-sm-12">
+          <div class="card text-center my-4">
+            <!-- navigation in .card-header -->
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#solution1">Solution 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#solution2">Solution 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#solution3">Solution 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#solution4">Solution 4</a>
+                </li>
+              </ul>
+            </div>
+            <!-- .card-body.tab-content  -->
+            <div class="card-body tab-content">
+              <div class="tab-pane fade show active" id="solution1">
+                <h4 class="card-title">Underwater Reference Station</h4>
+                <p class="card-text">Currently, there are 12 underwater reference stations in U.S. waters which track
+                  ocean noise levels. This effort leads to another two initiatives as well.</p>
+                <ol>
+                  <li>Producing maps of where these animals are located and in what densities.</li>
+                  <li>Predicting levels of underwater noise from human activities.</li>
+                </ol>
+              </div>
 
-        <h3>Effects</h3>
+              <div class="tab-pane fade" id="solution2">
+                <h4 class="card-title">Quieting Designs</h4>
+                <p class="card-text">The design of silent propeller is proposed to benefit both the marine lives and
+                  business.</p>
+              </div>
 
-        <div class="bd-callout bd-callout-default">
-          <h4>What does it mean?</h4>
-          Noise pollution is any undesired or irritating sound that has an adverse effect on the health and well-being
-          of people and other species is referred to as noise pollution.
+              <div class="tab-pane fade" id="solution3">
+                <h4 class="card-title">Sound Proofing Designs</h4>
+                <p class="card-text">Design the building with sound proofing structure or materials if it is expected to
+                  encounter huge noise frequently.</p>
+              </div>
+
+              <div class="tab-pane fade" id="solution4">
+                <h4 class="card-title">Noise Cancelling Earphones</h4>
+                <p class="card-text">To add on the sound proofing building, noise cancelling earphones help blocking the
+                  noise to a higher extent.</p>
+              </div>
+            </div>
+            <!--/.card-body -->
+          </div>
+          <!--/.card-->
         </div>
-
+        <!--/.col-sm-6 -->
       </div>
 
-    </div>
-  </section>
 
-  <section class="text-center full-screen" id="solutions">
-
-    <div class="container">
-
-      <div class="row">
-
-        <h3>Solutions</h3>
-
-        <div class="bd-callout bd-callout-default">
-          <h4>What does it mean?</h4>
-          Noise pollution is any undesired or irritating sound that has an adverse effect on the health and well-being
-          of people and other species is referred to as noise pollution.
+      <div id="captions" class="carousel carousel-darken slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#captions" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-
+        <div class="carousel-inner" style="height: 240px; max-width: 360px;">
+          <div class="carousel-item active">
+            <img src="assets/img/noise/underwater.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class="slide-title">Underwater Reference Station</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/noise/propeller.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class="slide-title">Silent Propellers</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/noise/sound proof.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class="slide-title">Sound-proofing Building</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/noise/headphone.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class="slide-title">Noise Cancelling Headphone</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#captions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#captions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
     </div>
+    <!--/.container -->
+
   </section>
+
+  <section class="full-screen">
+    <div class="container">
+      Resources
+    </div>
+  </section>
+
 </body>
 
 </html>
