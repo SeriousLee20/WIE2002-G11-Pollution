@@ -9,37 +9,25 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/pollution logo.mp4" rel="icon">
-  <link href="assets/img/pollution logo.mp4" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Window logo -->
+  <link href="assets/img/pollution-logo.gif" rel="icon">
 
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/noise.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap script file -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+    <div class="container d-flex">
       <div class="parent">
         <div class="child">
           <a href="mainpage.html" class="logo me-auto"><img src="assets/img/pollution-logo.gif" alt=""></a>
@@ -49,8 +37,7 @@
         </div>
       </div>
 
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <nav id="navbar" class="navbar ms-auto">
+      <nav id="navbar" class="navbar sticky-top ms-auto">
         <ul>
           <li><a class="nav-link scrollto" href="noise.html">Noise</a></li>
           <li><a class="nav-link scrollto" href="water.html">Water</a></li>
@@ -63,8 +50,8 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- Topic Header -->
-  <div class="full-screen">
+  <!-- Welcome -->
+  <div class="welcome full-screen">
     <header class="video-bg">
 
       <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
@@ -77,17 +64,17 @@
 
       <!-- The header content -->
       <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-          <div class="w-100 text-white">
+        <div class="row d-flex h-100 text-center align-items-center justify-content-center">
+          <div class="headerText">
             <h1 class="display-3">Noise Pollution</h1>
             <p class="lead mb-0">Keep it peace in your mind; keep it peace for the earth.</p>
           </div>
         </div>
       </div>
-    </header>
+    </header>  <!--.video-bg --> 
 
-    <header class="text-center">
-      <!-- Page section example for content below the video header -->
+    <header class="welcomeText text-center mb-5">
+      <!-- section for content below the video header -->
       <section class="my-5">
         <div class="container">
           <div class="row">
@@ -98,9 +85,9 @@
           </div>
         </div>
       </section>
-
-    </header>
-  </div>
+    </header> <!--.welcomeText --> 
+  </div> <!--.welcome --> 
+  <!-- End Welcome -->
 
 
   <!-- Section cards -->
@@ -113,9 +100,9 @@
         <section class="dnow-regionsWrap">
           <div class="dnow-regionsContent">
             <div class="card shadow-lg">
-              <img src="assets/img/noise/definition.png" alt="">
+              <img src="assets/img/noise/definition.png" style="filter: brightness(130%) hue(130%);" alt="">
               <div class="overlay-div"></div>
-              <div class="card-img-overlay d-flex justify-content-center align-items-center container">
+              <div class="card-img-overlay d-flex justify-content-center align-items-center container zoom">
                 <div class="row  mb-5">
                   <div class=" col-sm-12 text-content">
                     <h3 class="card-title ">
@@ -134,14 +121,14 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> <!-- .dnow-regionsWrap-->
 
         <section class="dnow-regionsWrap">
           <div class="dnow-regionsContent">
             <div class="card shadow-lg">
               <img src="assets/img/noise/intro.png" alt="">
               <div class="overlay-div"></div>
-              <div class="card-img-overlay d-flex justify-content-center align-items-center container">
+              <div class="card-img-overlay d-flex justify-content-center align-items-center container zoom">
                 <div class="row  mb-5">
                   <div class=" col-sm-12 text-content">
                     <h3 class="card-title ">
@@ -158,8 +145,8 @@
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </section><!-- .dnow-regionsWrap-->
+      </div> <!-- .row -->
 
       <div class="row text-center row-cols-1 row-cols-lg-3 row-cols-flex g-3 p-3 justify-content-center">
 
@@ -168,7 +155,7 @@
             <div class="card shadow-lg">
               <img src="assets/img/noise/reason.jpg" alt="">
               <div class="overlay-div"></div>
-              <div class="card-img-overlay d-flex justify-content-center align-items-center container">
+              <div class="card-img-overlay d-flex justify-content-center align-items-center container zoom">
                 <div class="row  mb-5">
                   <div class=" col-sm-12 text-content">
                     <h2 class="card-title ">
@@ -185,14 +172,14 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> <!-- .dnow-regionsWrap-->
 
         <section class="dnow-regionsWrap">
           <div class="dnow-regionsContent">
             <div class="card shadow-lg">
               <img src="assets/img/noise/effect.jpg" alt="">
               <div class="overlay-div"></div>
-              <div class="card-img-overlay d-flex justify-content-center align-items-center container">
+              <div class="card-img-overlay d-flex justify-content-center align-items-center container zoom">
                 <div class="row  mb-5">
                   <div class=" col-sm-12 text-content">
                     <h2 class="card-title ">
@@ -201,7 +188,7 @@
                     <p class="card-text">
                       Why is it harmful?
                     </p>
-                    <a href="#effects" class="btn-noise p-1">
+                    <a href="#reasons" class="btn-noise p-1">
                       Go Further.
                     </a>
                   </div>
@@ -209,14 +196,14 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> <!-- .dnow-regionsWrap-->
 
         <section class="dnow-regionsWrap">
           <div class="dnow-regionsContent">
             <div class="card shadow-lg">
               <img src="assets/img/noise/solution.png" alt="">
               <div class="overlay-div"></div>
-              <div class="card-img-overlay d-flex justify-content-center align-items-center container">
+              <div class="card-img-overlay d-flex justify-content-center align-items-center container zoom">
                 <div class="row  mb-5">
                   <div class=" col-sm-12 text-content">
                     <h2 class="card-title ">
@@ -233,47 +220,52 @@
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </section> <!-- .dnow-regionsWrap-->
+      </div> <!-- .row -->
+    </div> <!-- .container-->
+  </section> <!-- #section -->
 
-    </div>
-  </section>
+  <!-- End Section Cards -->
 
 
 
-  <section class="text-center full-screen m-auto" id="definition">
+  <!-- Definition Section -->
+  <section class="d-flex text-center full-screen m-auto" id="definition">
 
-    <div class="container">
+    <div class="container d-flex flex-row align-items-center">
 
-      <div class="row">
+      <div class="row pt-3 p-2">
 
-        <h3>Definition</h3>
+        <h3 class="sectionTitle">Definition</h3>
 
-        <div class="bd-callout bd-callout-default">
+        <img class="mb-5 w-50 mx-auto "src="/assets/img/noise/noisy.jpg" alt="">
+
+        <div class="bd-callout bd-callout-default mt-2 zoom" style="height: fit-content;">
           <h4>What does it mean?</h4>
           Noise pollution is any undesired or irritating sound that has an adverse effect on the health and well-being
           of people and other species is referred to as noise pollution.
         </div>
 
       </div>
-
-    </div>
+    </div> <!-- .container-->
   </section>
+  <!-- End Definition Section -->
 
-  <section class="p-3 full-screen" id="introduction">
+  <!-- Introduction Section -->
+  <section class="pt-2 p-2 full-screen" id="introduction">
     <div class="container">
       <div class="row">
-        <h3>
+        <h3 class="sectionTitle">
           Introduction
         </h3>
 
         <!-- Button to Open the Modal -->
-        <button type="button" class="btn-noise btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">
+        <button type="btn-noise" class="btn-noise btn-lg zoom" data-bs-toggle="modal" data-bs-target="#introModal">
           When will noise become dangerous?
         </button>
 
         <!-- The Modal -->
-        <div class="modal" id="myModal">
+        <div class="modal" id="introModal">
           <div class="modal-dialog">
             <div class="modal-content">
 
@@ -292,69 +284,216 @@
 
               <!-- Modal footer -->
               <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Got it!</button>
+                <button type="button" class="btn-gotIt zoom" data-bs-dismiss="modal">Got it!</button>
               </div>
 
             </div>
           </div>
+        </div> <!-- End Modal -->
+      </div> <!-- .row -->
+
+      <!-- Audio 1 -->
+      <div class="row d-flex align-items-center row-cols-2">
+
+        <div class="player mt-5 col-sm">
+          <div class="introimg img-box">
+            <img src="assets/img/noise/lawn-mower.gif" alt="lawn-mover" title="Lawn Mover">
+          </div>
+
         </div>
 
-      </div>
+        <div class="mt-5 col-sm ps-3">
+          <p>The noise of power lawn movers can reach 90dB.</p>
+          <audio controls>
+            <source src="assets/audio/lawn mower.mp3" type="audio/mp3">
+          </audio>
+        </div>
+      </div> 
+      <!-- End audio 1 -->
+
+      <!-- Audio 2 -->
+      <div class="row d-flex align-items-center row-cols-2">
+
+        <div class="mt-5 col-sm">
+          <p>The noise of loud rock concert can reach 110dB-120dB.</p>
+          <audio controls>
+            <source src="assets/audio/rock concert.mp3" type="audio/mp3">
+          </audio>
+        </div>
+
+        <div class="player mt-5 col-sm">
+
+          <div class="introimg img-box">
+            <img class="align-item-end" src="assets/img/noise/concert.gif" alt="rock concert" title="Rock Concert">
+          </div>
+
+        </div>
+      </div> <!-- End Audio 2-->
+
     </div>
-  </section>
+  </section> <!-- End Introduction Section -->
 
-  <section class="text-center full-screen" id="reasons">
+  <!-- Reasons & Effects Section -->
+  <section class="text-center full-screen p-3" id="reasons">
 
-    <div class="container">
+    <div class="container pt-2 h-100">
 
       <div class="row">
 
-        <h3>Reasons</h3>
+        <h3 class="sectionTitle">Causes & Effects</h3>
 
-        <iframe frameborder="no" width=300% height=300%
-          src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2341557/share/2022-4-21/1650523721/main.svg"></iframe>
+        <h4>Why does it happen and why is it harmful?</h4>
+
+        <img class="causeEffect mt-2 h-50" src="assets/img/noise/CauseEffect.png" alt="">
       </div>
 
+      <!-- Button to open Quick Fact -->
+      <p>
+        <button class="btn-noise mt-3 zoom" type="button" data-bs-toggle="collapse" data-bs-target="#quickfact" aria-expanded="false" aria-controls="collapseExample">
+          Quick Fact
+        </button>
+      </p>
+      <!-- Collapse section of Quick Fact -->
+      <div class="collapse" id="quickfact">
+        <div class="card card-body pb-0">
+          <p >
+            <ul style="text-align: left;">
+              <li class="footer">
+                Statistic shows that there are 60,000 commercial tankers and container ships are on the seas anytime. Meanwhile, the distance travelled by ship in the Canadian Arctic almost 3 times of the past 25 years.
+              </li>
+              <li class="footer">
+                Ship equipped with air guns fire each 10-12s for WEEKs or MONTHs with the sound travel more than 4000KM.
+              </li>
+              <li class="footer">
+                Seismic air gun is 6-7 orders of magnitude louder than the loudest ship sounds.
+              </li>
+            </ul>
+        </div> <!-- .card .card-body -->
+      </div> <!-- End Quick Fact -->
     </div>
-  </section>
+  </section> <!-- End Reasons & Effects Section -->
 
-  <section class="text-center full-screen" id="effects">
 
-    <div class="container">
+  <!-- Solutions Section -->
+  <section class="full-screen text-center" id="solutions">
+
+    <div class="container pt-3">
+      <h3 class="sectionTitle">Solutions</h3>
+      <h4>What can we do?</h4>
 
       <div class="row">
+        <div class="col-sm-12">
+          <div class="card text-center my-4">
 
-        <h3>Effects</h3>
+            <!-- navigation in .card-header -->
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item zoom">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#solution1">Solution 1</a>
+                </li>
+                <li class="nav-item zoom">
+                  <a class="nav-link" data-bs-toggle="tab" href="#solution2">Solution 2</a>
+                </li>
+                <li class="nav-item zoom">
+                  <a class="nav-link" data-bs-toggle="tab" href="#solution3">Solution 3</a>
+                </li>
+                <li class="nav-item zoom">
+                  <a class="nav-link" data-bs-toggle="tab" href="#solution4">Solution 4</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.card-header -->
 
-        <div class="bd-callout bd-callout-default">
-          <h4>What does it mean?</h4>
-          Noise pollution is any undesired or irritating sound that has an adverse effect on the health and well-being
-          of people and other species is referred to as noise pollution.
+            <!-- .card-body.tab-content  -->
+            <div class="card-body tab-content">
+
+              <!-- Content tab 1 -->
+              <div class="tab-pane fade show active" id="solution1">
+                <h4 class="card-title">Underwater Reference Station</h4>
+
+                  <p class="card-text">Currently, there are 12 underwater reference stations in U.S. waters which track
+                    ocean noise levels. This effort leads to another two initiatives as well.
+                  </p>
+                    
+                  <ol style="text-align:left;">
+                    <li>
+                      Producing maps of where these animals are located and in what densities.  
+                    </li>
+                    <li>
+                      Predicting levels of underwater noise from human activities.
+                    </li>
+                  </ol>
+    
+                <img class="solution img-fluid col-6 col-lg-3" src="assets/img/noise/underwater.png" alt="">
+              </div>
+
+              <!-- Content tab 2 -->
+              <div class="tab-pane fade" id="solution2">
+                <h4 class="card-title">Quieting Designs</h4>
+                <p class="card-text">The design of silent propeller is proposed to benefit both the marine lives and
+                  business.</p>
+
+                <img class="solution col-sm-10 col-lg-4" src="assets/img/noise/propeller.jpg" alt="">
+              </div>
+
+              <!-- Content tab 3 -->
+              <div class="tab-pane fade" id="solution3">
+                <h4 class="card-title">Sound Proofing Designs</h4>
+                <p class="card-text">Design the building with sound proofing structure or materials if it is expected to
+                  encounter huge noise frequently.</p>
+                <img class="solution col-6 col-lg-4" src="assets/img/noise/sound proof.png" alt="">
+              </div>
+
+              <!-- Content tab 4 -->
+              <div class="tab-pane fade" id="solution4">
+                <h4 class="card-title">Noise Cancelling Earphones</h4>
+                <p class="card-text">To add on the sound proofing building, noise cancelling earphones help blocking the
+                  noise to a higher extent.</p>
+                <img class="solution col-12 col-lg-6" src="assets/img/noise/headphone.jpg" alt="">
+              </div>
+
+            </div>
+            <!--/.card-body -->
+          </div>
+          <!--/.card-->
         </div>
-
-      </div>
-
-    </div>
+        <!--/.col-sm-12 -->
+    </div> <!-- /.container -->
   </section>
+  <!-- End Solutions Section -->
 
-  <section class="text-center full-screen" id="solutions">
-
+  <!-- References Section -->
+  <section id="reference" class="py-5">
     <div class="container">
 
-      <div class="row">
+      <h3 class="sectionTitle">References</h3>
 
-        <h3>Solutions</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <a href="https://www.nationalgeographic.org/encyclopedia/noise-pollution/" target="_blank"  class="pe-4 nav-link1"><i class="bi bi-whatsapp p-2"></i>Noise Pollution | National Geographic</a>
+        </li>
+        <li class="list-group-item">
+          <a href="https://www.nationalgeographic.org/encyclopedia/noise-pollution/" target="_blank"  class="pe-4 nav-link1"><i class="bi bi-whatsapp p-2"></i>WWF: The Arctic Gets Louder</a></li>
+        <li class="list-group-item">
+          <a href="https://www.nationalgeographic.org/encyclopedia/noise-pollution/" target="_blank"  class="pe-4 nav-link1"><i class="bi bi-binoculars p-2"></i>Soundcheck: Ocean Noise (NOAA)</a>
+        </li>
+        <li class="list-group-item">
+          <a href="https://lifeandhealth.org/lifestyle/reducing-noise-pollution/1736.html" target="_blank"  class="pe-4 nav-link1"><i class="bi bi-whatsapp p-2"></i>5 Ways to Reduce Noise Pollution (Life and Health Network)</a>
+        </li>
+      </ul>
 
-        <div class="bd-callout bd-callout-default">
-          <h4>What does it mean?</h4>
-          Noise pollution is any undesired or irritating sound that has an adverse effect on the health and well-being
-          of people and other species is referred to as noise pollution.
-        </div>
-
-      </div>
-
-    </div>
+    </div> <!-- /.container -->
   </section>
+
+  <!-- End References Section -->
+
+  <!-- Back to Top -->
+  <a href="#noise.html" class="back-to-top d-flex align-items-center justify-content-center">
+    <span>
+      <i class="bi bi-arrow-up-short"></i>
+    </span>
+  </a>
+
 </body>
 
 </html>
