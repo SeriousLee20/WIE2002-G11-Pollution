@@ -139,7 +139,7 @@ a:link{
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #718355;
+  background: #fff;
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
@@ -185,6 +185,10 @@ a:link{
   font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
+.navbar .navbar-nav{
+  background-color: #fff;
+}
+
 .navbar .navbar-collapse a{
   color: #1e2d32;
   font-size: 1rem;
@@ -216,7 +220,7 @@ a:link{
 .toggler-icon{
   width: 30px;
   height: 3px;
-  background-color: #cad2c5;
+  background-color: #1e2d32;
   display: block;
   transition: all 0.2s;
 }
