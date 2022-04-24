@@ -564,11 +564,11 @@ box-shadow: 5px 5px 8px rgb(255, 195, 0, 0.8);
 /* Reference */
 
 #reference .nav-link1{
-  color: #e8efcd;
+  color: #354f52;
 }
 
 #reference .nav-link1:hover{
-  color: #cad5c5;
+  color: #ffc300;
   font-weight: bolder;
 }
 
