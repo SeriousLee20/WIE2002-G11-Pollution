@@ -62,12 +62,14 @@ a:link{
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   }
   
-  #definition, #reasons .sectionTitle{
+  #definition .sectionTitle,
+  #reasons .sectionTitle{
     font-size: 2rem;
     color: #e8efcd;
   }
   
-  #introduction, #solution .sectionTitle{
+  #introduction .sectionTitle, 
+  #solution .sectionTitle{
     color: #354f52;
     font-size: 2rem;
   }
@@ -90,6 +92,7 @@ a:link{
       width: 100%;
       margin: 15px 0;
       }
+
       .parent {
       margin: 1rem;
       padding: 2rem 2rem;
@@ -150,24 +153,14 @@ a:link{
   padding: 1;
 }
 
-#header .logo {
-  font-size: 25px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  
-}
-
-#header .logo a {
-  color: #cad2c5;
-  padding: 0;
-}
 
 #header .logo img {
   max-height: 35px;
+}
+
+#header .title{
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .scrolled-offset {
@@ -182,59 +175,96 @@ a:link{
 */
 .navbar {
   padding: 0;
-  
+
 }
 
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.navbar li {
-  position: relative;
-}
-
-.navbar a, .navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  color: #cad2c5;
-  font-family: 'Encode Sans Semi Expanded', sans-serif;
-  white-space: nowrap;
-  transition: 0.3s;
-}
-
-.navbar a i, .navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ffc300;
-}
-
-.navbar .getstarted, .navbar .getstarted:focus {
-  color: #cad2c5;
-  padding: 8px 25px;
-  margin-left: 30px;
-  border-radius: 4px;
-  border: 2px solid #cad2c5;
-  transition: 0.3s;
-  font-size: 14px;
-}
-
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  background: #ffc300;
+.navbar .title a{
   color: #354f52;
-  border-color: #ffc300;
+  padding-left: 0.5rem;
+  font-weight: 500;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
+
+.navbar .navbar-collapse a{
+  color: #1e2d32;
+  font-size: 1rem;
+  margin-right: 1rem;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav a.active,
+.navbar .navbar-nav a:hover{
+  color: #d7a90e;
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+  width: 30px;
+  height: 3px;
+  background-color: #cad2c5;
+  display: block;
+  transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+  margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+  background-color: #ffc300;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  background-color: #ffc300;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #cad2c5;
+}
+
 
 /**
 * Mobile Navigation 
@@ -623,6 +653,7 @@ box-shadow: 5px 5px 8px rgb(255, 195, 0, 0.8);
   
 /* Self reference */
 .color{
+color:#1e2d32;
 color: #e8efcd;
 color: #ffc300;
 color: #354f52;
