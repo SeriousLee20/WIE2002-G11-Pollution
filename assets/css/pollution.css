@@ -99,7 +99,7 @@ body {
   }
   #hero .carousel-item::before {
     content: "";
-    background-color: rgba(45, 103, 60, 0.8);
+    
   }
   #hero .carousel-container {
     display: flex;
@@ -186,13 +186,13 @@ body {
     border-radius: 4px;
     transition: 0.5s;
     line-height: 1;
-    color: #fff;
+    color: #6ec083;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    background: #5cb874;
+    background: #ffffff;
   }
   #hero .btn-get-started:hover {
-    background: #6ec083;
+    background: #ffffff;
   }
   @media (max-width: 992px) {
     #hero {
