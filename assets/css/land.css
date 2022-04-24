@@ -120,8 +120,8 @@ body {
   }
 
 
-/* ===============SWIPER================ */
-.swiper-pagination{
+  /* ===============SWIPER================ */
+  .swiper-pagination{
     position: initial;
     margin-top: var(--mb-1);
   }
