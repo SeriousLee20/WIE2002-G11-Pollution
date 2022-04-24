@@ -5,55 +5,53 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>
-    
-    Pollution</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Pollution</title>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/pollution.css" rel="stylesheet">
 
 </head>
 
-<body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto"><a href="mainpage.html">Pollution</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="mainpage.html" class="logo me-auto"><img src="assets/img/pollution logo.mp4" alt="" class="img-fluid"></a>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                <li><a class="nav-link scrollto" href="noise.html">Noise</a></li>
-                <li><a class="nav-link scrollto" href="water.html">Water</a></li>
-                <li><a class="nav-link scrollto" href="air.html">Air</a></li>
-                <li><a class="nav-link scrollto " href="land.html">Land</a></li>
-                <li><a class="nav-link scrollto" href="plastic.html">Plastic</a></li>
-        
-                <li><a class="getstarted scrollto" href="#">Get Started</a></li>
-            </nav><!-- .navbar -->
+<body class="d-flex flex-column min-vh-100">
+  <!-- ======= Header ======= -->
+  <nav id="header" class="navbar sticky-top navbar-expand-md navbar-light bg-light py-3">
+    <div class="container p-0">
+        <h1 class="logo" ><a href="mainpage.html">Pollution</a></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="noise.html">Noise</a></li>
+                <li class="nav-item"><a class="nav-link" href="water.html">Water</a></li>
+                <li class="nav-item"><a class="nav-link" href="air.html">Air</a></li>
+                <li class="nav-item"><a class="nav-link" href="land.html">Land</a></li>
+                <li class="nav-item"><a class="nav-link" href="plastic.html">Plastic</a></li>
+                <li class="nav-item"><a class="nav-link getstarted" href="#">Get Started</a></li>
+            </ul>
         </div>
-    </header><!-- End Header -->
+    </div>
+  </nav>
+  <!-- End Header -->
 
 
-    <!-- ======= Hero Section ======= -->
+  <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
@@ -66,7 +64,10 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Pollution</span></h2>
-              <p class="animate__animated animate__fadeInUp">Pollution is the introduction of harmful materials into the environment. These harmful materials are called pollutants. Pollutants can be natural, such as volcanic ash. They can also be created by human activity, such as trash or runoff produced by factories. Pollutants damage the quality of air, water, and land.</p>
+              <p class="animate__animated animate__fadeInUp">Pollution is the introduction of harmful materials into the
+                environment. These harmful materials are called pollutants. Pollutants can be natural, such as volcanic
+                ash. They can also be created by human activity, such as trash or runoff produced by factories.
+                Pollutants damage the quality of air, water, and land.</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -77,7 +78,9 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem.
+                Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -88,7 +91,9 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem.
+                Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -126,56 +131,58 @@
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch w-75%">
           <div class="member">
-            <img src="assets/img/team/HuiXin.jpeg" class="img-responsive" alt="" >
+            <img src="assets/img/team/HuiXin.jpeg" class="img-responsive" alt="">
             <h4>Lee Hui Xin</h4>
             <span>CTO</span>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/Segi.jpeg" alt="">
-              <h4>Ooi Xie Gee</h4>
-              <span>CTO</span>
-            </div>
+          <div class="member">
+            <img src="assets/img/team/Segi.jpeg" alt="">
+            <h4>Ooi Xie Gee</h4>
+            <span>CTO</span>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/NamChi.jpeg" alt="">
-              <h4>Chai Nam Chi</h4>
-              <span>CTO</span>
-            </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="member">
+            <img src="assets/img/team/NamChi.jpeg" alt="">
+            <h4>Chai Nam Chi</h4>
+            <span>CTO</span>
           </div>
+        </div>
 
       </div>
 
     </div>
   </section><!-- End Team Section -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
-            <h3>Pollution</h3>
-            <!-- <p>Enforeced by WHO ()</p> -->
-            <div class="social-links">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="mt-auto">
+    <div class="container">
+        <h3>Pollution</h3>
+        <div class="social-links">
             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-            <div class="copyright">
-            &copy; Copyright <strong><span>Pollution</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/green-free-one-page-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">Group 11 | Pollution | WIE2002</a>
-            </div>
         </div>
-        </footer><!-- End Footer -->
+        <div class="copyright">
+            &copy; Copyright <strong><span>Pollution</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Designed by
+            <a href="#">Group 11 | Pollution | WIE2002</a>
+        </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
 
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>

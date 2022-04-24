@@ -48,8 +48,33 @@ body {
     color: #5cb874;
   }
   
-  .scrolled-offset {
-    margin-top: 70px;
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /**
+  * Desktop Navigation 
+  */
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #5cb874;
+  }
+
+  .navbar-nav .nav-item .active {
+    color: #5cb874 !important;
+  }
+
+  .navbar-nav .nav-item .getstarted, .navbar-nav .nav-item .getstarted:focus {
+    color: #5cb874;
+    padding: 8px 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: 2px solid #5cb874;
+    transition: 0.3s;
+    font-size: 14px;
+  }
+  .navbar-nav .nav-item .getstarted:hover, .navbar-nav .nav-item .getstarted:focus:hover {
+    background: #5cb874;
+    color: #fff;
   }
   
   /*--------------------------------------------------------------
