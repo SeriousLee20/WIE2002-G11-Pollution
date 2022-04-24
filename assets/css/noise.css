@@ -15,7 +15,8 @@ font-family: 'Andada Pro', serif;
 
 p{
 font-family: 'Encode Sans Semi Expanded', sans-serif;
-  font-size: 1.2rem;
+font-size: 1.2rem;
+text-justify: inter-word;
 }
 
 a:link{
@@ -23,7 +24,6 @@ text-decoration: none;
 }
 
 .zoom {
-
 transition: transform .2s; /* Animation */
 }
 
@@ -78,32 +78,32 @@ box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   height: 100vh;
   }
 
-  .section {
-    height: 100%;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .half {
-    background: #f9f9f9;
-    height: 50%;  
-    width: 100%;
-    margin: 15px 0;
-    }
+.section {
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .half {
+  background: #f9f9f9;
+  height: 50%;  
+  width: 100%;
+  margin: 15px 0;
+  }
 
-    .parent {
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-    }
-    
-    .child {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-    }
+  .parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  }
+  
+  .child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  }
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -152,7 +152,6 @@ margin: 1;
 #header .child{
 padding: 1;
 }
-
 
 #header .logo img {
 max-height: 35px;
