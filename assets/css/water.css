@@ -1,11 +1,9 @@
-a{
-  text-decoration: none;
-}
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
+  overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
