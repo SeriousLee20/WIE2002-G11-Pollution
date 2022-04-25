@@ -1,11 +1,9 @@
-a{
-  text-decoration: none;
-}
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
+  overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -27,33 +25,33 @@ h1, h2, h3, h4, h5, h6 {
     text-justify: inter-word;
   }
   /*--------------------------------------------------------------
-  # Back to top button
-  --------------------------------------------------------------*/
-  .back-to-top {
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 996;
-    background: #5cb874;
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    transition: all 0.4s;
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #354f52;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
   }
-  .back-to-top i {
-    font-size: 24px;
-    color: #fff;
-    line-height: 0;
+  
+  .back-to-top .bi {
+  font-size: 24px;
+  color: #e8efcd;
+  line-height: 0;
   }
+  
   .back-to-top:hover {
-    background: #78c48c;
-    color: #fff;
+  background: #e8efcd;
+  color: #354f52;
   }
-  .back-to-top.active {
-    visibility: visible;
-    opacity: 1;
+  
+  .back-to-top .bi:hover{
+  color: #354f35;
   }
   
   /*--------------------------------------------------------------

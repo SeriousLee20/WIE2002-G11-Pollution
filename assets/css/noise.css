@@ -3,6 +3,7 @@
 
 /* body Style */
 body {
+  overflow-x: hidden;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   color: #904525;
   font-size: 4rem;

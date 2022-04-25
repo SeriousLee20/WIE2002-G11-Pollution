@@ -1,14 +1,9 @@
-/**
-* Template Name: Green - v4.7.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
+    overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
     color: #444444;
   }
@@ -77,6 +72,36 @@ body {
     color: #fff;
   }
   
+  /*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #354f52;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+  }
+  
+  .back-to-top .bi {
+  font-size: 24px;
+  color: #e8efcd;
+  line-height: 0;
+  }
+  
+  .back-to-top:hover {
+  background: #e8efcd;
+  color: #354f52;
+  }
+  
+  .back-to-top .bi:hover{
+  color: #354f35;
+  }
+
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
