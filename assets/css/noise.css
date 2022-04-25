@@ -39,17 +39,18 @@ color: #354f52;
 }
 
 .btn-noise{
-background-color: #ffc300;
-border-color: #ffc300;
+background-color: #354f52;
+border-color: #354f52;
 border-radius: 8px;
 box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.3);
-color: #354f52;
+color: #ffc300;
 }
 
 .btn-noise:hover{
-background-color: #354f52;
-border-color: #354f52;
-color:#ffc300;
+background-color: #ffc300;
+border-color: #ffc300;
+border-width: 5px;
+color:#354f52;
 }
 
 .btn-noise:active{
@@ -200,8 +201,7 @@ font-weight: 500;
 .navbar .navbar-nav a.active,
 .navbar .navbar-nav a:hover{
 color: #d7a90e;
-font-size: 1.25rem;
-margin-left: 0.5rem;
+font-size: 1.45rem;
 }
 
 .navbar-toggler {
@@ -268,8 +268,6 @@ transform: rotate(0);
 .navbar-toggler.collapsed .toggler-icon {
 background-color: #354f52;
 }
-
-
 
 /* Welcome Video */
 .video-bg {
@@ -356,7 +354,7 @@ transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s 
 height:100%;
 width: 100%;
 position:absolute;
-background-color:#ffc300;
+background-color:#718355;
 opacity:.3;
 }
 
