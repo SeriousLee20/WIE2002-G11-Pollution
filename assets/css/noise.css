@@ -12,14 +12,17 @@ body {
 /* heading style */
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Andada Pro', serif;
+font-size: 1.25rem;
 }
 
+/* paragraph style */
 p{
 font-family: 'Encode Sans Semi Expanded', sans-serif;
 font-size: 1.2rem;
 text-justify: inter-word;
 }
 
+/* Link style */
 a:link{
 text-decoration: none;
 }
@@ -33,15 +36,11 @@ transition: transform .2s; /* Animation */
 transform: scale(1.05);
 }
 
-.footer{
-font-size: small;
-font-family: 'Encode Sans Semi Expanded', sans-serif;
-color: #354f52;
-}
 
+/* Button Style */
 .btn-noise{
 background-color: #354f52;
-border-color: #354f52;
+border-color: #1e2d32;
 border-radius: 8px;
 box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.3);
 color: #ffc300;
@@ -65,48 +64,33 @@ box-shadow: none;
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
+/* Sections style */
 #definition .sectionTitle,
 #reasons .sectionTitle{
   font-size: 2rem;
-  color: #e8efcd;
+  color: #5cb874;
 }
 
 #introduction .sectionTitle, 
-#solution .sectionTitle{
-  color: #354f52;
+#solutions .sectionTitle{
+  color: #edefe6;
   font-size: 2rem;
 }
 
+/* Full screen for each section */
 .full-screen{
-  height: 100vh;
-  }
+height: 100vh;
+}
 
 .section {
-  height: 100%;  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-  
-  .half {
-  background: #f9f9f9;
-  height: 50%;  
-  width: 100%;
-  margin: 15px 0;
-  }
+height: 100%;  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
-  .parent {
-  margin: 1rem;
-  padding: 2rem 2rem;
-  text-align: center;
-  }
-  
-  .child {
-  display: inline-block;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-  }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -142,18 +126,10 @@ color: #354f35;
 # Header
 --------------------------------------------------------------*/
 #header {
-background: #fff;
+background: #edefe6;
 transition: all 0.5s;
 z-index: 997;
 height: 70px;
-}
-
-#header .parent{
-margin: 1;
-}
-
-#header .child{
-padding: 1;
 }
 
 #header .logo img {
@@ -177,18 +153,18 @@ margin-top: 60px;
 */
 .navbar {
 padding: 0;
-
 }
 
 .navbar .title a{
-color: #354f52;
+color: #5cb874;
 padding-left: 0.5rem;
-font-weight: 500;
+font-weight: 600;
 font-family: 'Encode Sans Semi Expanded', sans-serif;
+font-size: 1.8rem;
 }
 
 .navbar .navbar-nav{
-background-color: #fff;
+background-color: #edefe6;
 }
 
 .navbar .navbar-collapse a{
@@ -201,7 +177,7 @@ font-weight: 500;
 
 .navbar .navbar-nav a.active,
 .navbar .navbar-nav a:hover{
-color: #d7a90e;
+color: #5cb874;
 font-size: 1.45rem;
 }
 
@@ -235,7 +211,7 @@ margin: 5px auto;
 .navbar-toggler .top-bar {
 transform: rotate(45deg);
 transform-origin: 10% 10%;
-background-color: #ffc300;
+background-color: #5cb874;
 }
 
 .navbar-toggler .middle-bar {
@@ -246,7 +222,7 @@ filter: alpha(opacity=0);
 .navbar-toggler .bottom-bar {
 transform: rotate(-45deg);
 transform-origin: 10% 90%;
-background-color: #ffc300;
+background-color: #5cb874;
 }
 /* State when navbar is opened (END) */
 
@@ -330,8 +306,8 @@ color:#cad2c5;
 }
 
 .welcome{
-background-color: #718355;
-color: #cad2c5;
+background-color: #edefe6;
+color: #718355;
 }
 
 /* Section Cards */
@@ -355,40 +331,41 @@ transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s 
 height:100%;
 width: 100%;
 position:absolute;
-background-color:#718355;
-opacity:.3;
+background-color:#edefe6;
+opacity:.5;
 }
 
 .card:hover .overlay-div{
 border-radius: 6px;
-opacity: .6;
+opacity: .7;
 }
 
 #card-section .card img{
-filter: opacity(60%);
+filter: opacity(50%);
 }
 
 .card-title{
 font-weight: bold;
-}
-
-.card-text{
-font-weight: 600;
-text-shadow: #000;
 color: #1e2d32;
 }
 
+.card-text{
+font-weight: 700;
+text-shadow: #000;
+color: #1e2d32;
+}
 
 /* Definition */
 .bd-callout {
 padding: 1.25rem;
 margin-top: 1.25rem;
 margin-bottom: 1.25rem;
-border: 1px solid #cad5c5;
+border: 2px solid #edefe6;
 border-top-width: .25rem;
 border-radius: .25rem;
 box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
-color: #e8efcd;
+color: #edefe6;
+background-color: #354f52;
 font-size: 1.5rem;
 }
 
@@ -400,8 +377,16 @@ padding: 12px;
 font-size: 2rem;
 }
 
+.modal{
+  color: #5cb874;
+}
+
+.modal-title{
+  font-size: 1.25rem;
+}
+
 .player {
-background-color: #f1f3f4;
+background-color: #edefe6;
 box-shadow: 0 50px 80px rgba(0, 0, 0, 0.25);
 position: relative;
 width: 350px;
@@ -426,14 +411,10 @@ outline: none;
 width: 100%;
 }
 
-.img-box{
-max-height: 240px;
-}
-
+.img-box,
 .introimg{
 max-height: 240px;
 }
-
 
 /* Cause Effect Section */
 .causeEffect{
@@ -445,23 +426,22 @@ box-shadow: 5px 5px 8px rgb(255, 195, 0, 0.6);
 }
 
 .causeEffect:hover{
-border-color: #904525;
+border-color: #ffc300;
 border-width: 2rem;
 border-radius: 3px;
 box-shadow: 5px 5px 8px rgb(255, 195, 0, 0.8);
 }
 
 #reasons .card-body{
-background-color: #cad2c5;
+background-color: #edefe6;
 }
 
 
 /* Solution and Effect*/
-
-#solutions .card{
-color: #000f;
+#solutions .card-text,
+#solutions .li{
+  font-weight: 300;
 }
-
 
 #solutions .nav-link{
 font-family: 'Encode Sans Semi Expanded', sans-serif;
@@ -475,6 +455,15 @@ color:#ffc300;
 background-color: #354f52;
 }
 
+#solutions .tab-pane,
+#solutions .card-body,
+#solutions .card-header{
+  background-color: #edefe6;
+  margin: 0;
+  color: #1e2d32;
+}
+
+
 /* Reference */
 
 #reference .nav-link1{
@@ -487,11 +476,11 @@ font-weight: bolder;
 }
 
 #reference .nav-link1:visited{
-color:#3698a3;
+color:#5cb874;
 }
 
 #reference .bi {
-color: #354f52;
+color: #5cb874;
 font-weight: 700;
 font-size: 1.5rem;  
 border-color: #354f52;
@@ -502,12 +491,14 @@ padding-right: 0.5rem;
 background-color: #cad2c5;
 }
 
-#definition, #reasons{
-background-color: #718355;
+#definition, #reasons, #reference{
+background-color: #edefe6;
+color: #5cb874;
 }
 
 #introduction, #solutions, #card-section{
-background-color: #e8efcd;
+background-color: #354f52;
+color: #edefe6;
 }
 
 
@@ -573,6 +564,8 @@ color: #ffc300;
 color: #354f52;
 color: #cad2c5;
 color: #718355;
+color: #5cb874;
+color: #edefe6;
 font-family: 'Andada Pro', serif;
 font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
